@@ -43,8 +43,17 @@ export const metadata: Metadata = {
     "ENGEFRANCE",
   ],
   authors: [{ name: "ENGEFRANCE Engenharia Industrial e Construção Civil" }],
+  metadataBase: new URL("https://www.engefrance.com.br"),
+  manifest: "/manifest.json",
+  themeColor: "#1028B9",
   icons: {
-    icon: "/uploads/logotipo.png",
+    icon: [
+      { url: "/icon.png", sizes: "1024x1024" },
+      { url: "/favicon.png", sizes: "1024x1024" },
+      { url: "/uploads/logotipo.png", sizes: "1024x1024" },
+    ],
+    apple: [{ url: "/apple-icon.png", sizes: "1024x1024" }],
+    shortcut: ["/favicon.png"],
   },
   openGraph: {
     title: "ENGEFRANCE | Engenharia Industrial e Construção Civil",
@@ -54,12 +63,21 @@ export const metadata: Metadata = {
     siteName: "ENGEFRANCE",
     type: "website",
     locale: "pt_BR",
+    images: [
+      {
+        url: "/uploads/logotipo.png",
+        width: 1024,
+        height: 1024,
+        alt: "ENGEFRANCE Engenharia Industrial e Construção Civil",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "ENGEFRANCE | Engenharia Industrial e Construção Civil",
     description:
       "Soluções completas em construção civil, infraestrutura e gerenciamento de obras em Recife.",
+    images: ["/uploads/logotipo.png"],
   },
 };
 

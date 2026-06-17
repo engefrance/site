@@ -1,0 +1,27 @@
+{
+  "name": "ENGEFRANCE Engenharia Industrial e Construção Civil",
+  "short_name": "ENGEFRANCE",
+  "description": "Soluções completas em construção civil, infraestrutura, instalações e gerenciamento de obras para clientes públicos e privados.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#1028B9",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "/uploads/logotipo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
