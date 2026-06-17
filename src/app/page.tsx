@@ -4,6 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Header } from "@/components/site/header";
 import { Footer } from "@/components/site/footer";
 import { QuoteModal } from "@/components/site/quote-modal";
+import { ScrollProgress } from "@/components/site/scroll-progress";
+import { BackToTop } from "@/components/site/back-to-top";
 import { HomePage } from "@/components/sections/home-page";
 import { EmpresaPage } from "@/components/sections/empresa-page";
 import { ServicosPage } from "@/components/sections/servicos-page";
@@ -21,6 +23,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,40,185,0.15),transparent_60%)]" />
         <div className="absolute bottom-0 right-0 h-[60vh] w-[60vw] rounded-full bg-[#1BA9FF]/5 blur-3xl" />
       </div>
+
+      {/* Barra de progresso de scroll no topo */}
+      <ScrollProgress />
 
       <Header />
 
@@ -43,6 +48,9 @@ export default function Home() {
       </main>
 
       <Footer />
+
+      {/* Botão voltar ao topo */}
+      <BackToTop />
 
       <QuoteModal />
     </div>
