@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, Space_Grotesk, Sora } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
@@ -45,7 +45,6 @@ export const metadata: Metadata = {
   authors: [{ name: "ENGEFRANCE Engenharia Industrial e Construção Civil" }],
   metadataBase: new URL("https://www.engefrance.com.br"),
   manifest: "/manifest.json",
-  themeColor: "#1028B9",
   icons: {
     icon: [
       { url: "/icon.png", sizes: "1024x1024" },
@@ -79,6 +78,12 @@ export const metadata: Metadata = {
       "Soluções completas em construção civil, infraestrutura e gerenciamento de obras em Recife.",
     images: ["/uploads/logotipo.png"],
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#1028B9",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

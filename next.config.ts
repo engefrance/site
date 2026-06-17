@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: true,
   },
   reactStrictMode: false,
+  // Desativa o indicador flutuante "Next.js" no canto inferior direito
+  // (aparece apenas em desenvolvimento — não afeta produção)
+  devIndicators: false,
   images: {
     remotePatterns: [
       {
