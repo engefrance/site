@@ -1,0 +1,70 @@
+# ─── Dependencies ──────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+.pnp.*\.zip
+
+# ─── Next.js build artifacts ───────────────────────────────────
+.next/
+out/
+build/
+dist/
+
+# ─── Production ────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── Environment variables (NUNCA commitar segredos) ───────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ─── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ─── OS / Editor ───────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Prisma ────────────────────────────────────────────────────
+prisma/*.db
+prisma/*.db-journal
+prisma/migrations/dev.db*
+db/*.db
+db/*.db-journal
+
+# ─── Sandbox / dev artifacts (não pertencem ao projeto) ────────
+.zscripts/
+skills/
+examples/
+upload/
+download/
+worklog.md
+Caddyfile
+
+# ─── Arquivos grandes não usados pelo site (apenas referência) ─
+public/uploads/video1.mp4
+public/uploads/video3.mp4
+public/uploads/referencia.png
+
+# ─── Test screenshots ──────────────────────────────────────────
+*.png.bak
