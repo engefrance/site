@@ -231,7 +231,7 @@ export function ContatoPage() {
                       {[
                         { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com" },
                         { icon: Instagram, label: "Instagram", href: "https://www.instagram.com" },
-                        { icon: Facebook, label: "Facebook", href: "https://www.facebook.com" },
+                        { icon: Facebook, label: "Facebook", href: "https://www.facebook.com/engefrance" },
                       ].map(({ icon: Icon, label, href }) => (
                         <motion.a
                           key={label}
