@@ -74,8 +74,7 @@ export function HomeHero() {
             >
               Engenharia, Construção
               <br />
-              e Infraestrutura com{" "}
-              <span className="gradient-text text-glow">Excelência</span>
+              e Infraestrutura
             </motion.h1>
 
             <motion.p
