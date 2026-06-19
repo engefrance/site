@@ -84,8 +84,8 @@ export function HomeHero() {
               className="mt-6 text-base sm:text-xl text-white/70 leading-relaxed max-w-2xl"
             >
               Soluções completas em construção civil, infraestrutura, instalações
-              e gerenciamento de obras para clientes públicos e privados em todo
-              o Brasil.
+              e gerenciamento de obras, atendendo clientes públicos e privados
+              em todo o Estado de Pernambuco.
             </motion.p>
 
             <motion.div

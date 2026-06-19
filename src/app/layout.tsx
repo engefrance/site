@@ -26,7 +26,7 @@ const sora = Sora({
 export const metadata: Metadata = {
   title: "ENGEFRANCE | Engenharia Industrial e Construção Civil em Recife",
   description:
-    "A ENGEFRANCE é referência em engenharia, construção civil, infraestrutura e gerenciamento de obras em Recife e Pernambuco. Soluções completas para clientes públicos e privados.",
+    "A ENGEFRANCE é referência em engenharia, construção civil, infraestrutura e gerenciamento de obras em Pernambuco. Soluções completas para clientes públicos e privados.",
   keywords: [
     "Engenharia em Recife",
     "Construção Civil em Recife",
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ENGEFRANCE | Engenharia Industrial e Construção Civil",
     description:
-      "Soluções completas em construção civil, infraestrutura, instalações e gerenciamento de obras para clientes públicos e privados.",
+      "Soluções completas em construção civil, infraestrutura, instalações e gerenciamento de obras, atendendo clientes públicos e privados em todo o Estado de Pernambuco.",
     url: "https://www.engefrance.com.br",
     siteName: "ENGEFRANCE",
     type: "website",
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ENGEFRANCE | Engenharia Industrial e Construção Civil",
     description:
-      "Soluções completas em construção civil, infraestrutura e gerenciamento de obras em Recife.",
+      "Soluções completas em construção civil, infraestrutura e gerenciamento de obras em Pernambuco.",
     images: ["/uploads/logotipo.png"],
   },
 };
