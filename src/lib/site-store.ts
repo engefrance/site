@@ -5,6 +5,7 @@ export type PageKey =
   | "empresa"
   | "servicos"
   | "portfolio"
+  | "galeria"
   | "contato";
 
 interface SiteState {

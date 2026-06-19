@@ -12,6 +12,7 @@ const NAV: { key: PageKey; label: string }[] = [
   { key: "empresa", label: "Empresa" },
   { key: "servicos", label: "Serviços" },
   { key: "portfolio", label: "Portfólio" },
+  { key: "galeria", label: "Galeria" },
   { key: "contato", label: "Contato" },
 ];
 

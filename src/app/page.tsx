@@ -10,6 +10,7 @@ import { HomePage } from "@/components/sections/home-page";
 import { EmpresaPage } from "@/components/sections/empresa-page";
 import { ServicosPage } from "@/components/sections/servicos-page";
 import { PortfolioPage } from "@/components/sections/portfolio-page";
+import { GaleriaPage } from "@/components/sections/galeria-page";
 import { ContatoPage } from "@/components/sections/contato-page";
 import { useSite } from "@/lib/site-store";
 
@@ -42,6 +43,7 @@ export default function Home() {
             {page === "empresa" && <EmpresaPage />}
             {page === "servicos" && <ServicosPage />}
             {page === "portfolio" && <PortfolioPage />}
+            {page === "galeria" && <GaleriaPage />}
             {page === "contato" && <ContatoPage />}
           </motion.div>
         </AnimatePresence>

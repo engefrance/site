@@ -66,6 +66,7 @@ export function Footer() {
               <FooterLink onClick={() => go("empresa")}>Empresa</FooterLink>
               <FooterLink onClick={() => go("servicos")}>Serviços</FooterLink>
               <FooterLink onClick={() => go("portfolio")}>Portfólio</FooterLink>
+              <FooterLink onClick={() => go("galeria")}>Galeria</FooterLink>
               <FooterLink onClick={() => go("contato")}>Contato</FooterLink>
             </ul>
           </div>

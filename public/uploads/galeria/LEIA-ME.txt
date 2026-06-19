@@ -1,0 +1,50 @@
+═══════════════════════════════════════════════════════════════════════════
+                    PASTA DE FOTOS DA GALERIA — ENGEFRANCE
+═══════════════════════════════════════════════════════════════════════════
+
+COMO ADICIONAR FOTOS REAIS DA EMPRESA:
+
+1. Copie seus arquivos de imagem (.jpg, .png) para ESTA pasta:
+   /public/uploads/galeria/
+
+   Sugestões de nomes:
+   - obra-recife-01.jpg
+   - obra-recife-02.jpg
+   - equipe-tecnica-01.jpg
+   - equipamento-guindaste.jpg
+   - instalacao-eletrica.jpg
+   - evento-inauguracao.jpg
+   - etc.
+
+2. Edite o arquivo:
+   /src/lib/galeria-data.ts
+
+3. Para cada foto, adicione um objeto no array GALLERY_PHOTOS:
+
+   {
+     id: "obra-recife-01",                         // identificador único
+     src: "/uploads/galeria/obra-recife-01.jpg",   // caminho da imagem
+     title: "Construção do edifício X",            // título curto
+     category: "Obras",                            // Obras | Equipe | Equipamentos | Instalações | Eventos | Documentos
+     description: "Estrutura em concreto armado...",  // descrição (opcional)
+     year: "2024",                                 // ano (opcional)
+   }
+
+4. Salve o arquivo — o site recarrega automaticamente.
+
+═══════════════════════════════════════════════════════════════════════════
+
+CATEGORIAS DISPONÍVEIS (definidas em galeria-data.ts):
+  - Obras           → fotos de obras em execução e concluídas
+  - Equipe          → fotos da equipe técnica e funcionários
+  - Equipamentos    → máquinas, veículos e ferramentas
+  - Instalações     → instalações elétricas, hidráulicas, SPDA, etc.
+  - Eventos         → inaugurações, treinamentos, datas comemorativas
+  - Documentos      → certificações, licenças, sede administrativa
+
+TAMANHO IDEAL DAS IMAGENS:
+  - 1600x1200 pixels (4:3) — recomendado
+  - 1600x900 pixels (16:9) — também aceito
+  - Formato .jpg (menor tamanho) ou .png (com transparência)
+
+═══════════════════════════════════════════════════════════════════════════
